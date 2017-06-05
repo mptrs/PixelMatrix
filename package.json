@@ -1,0 +1,15 @@
+{
+  "name": "pixel-matrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pixel-matrix.js",
+  "scripts": {
+    "install": "make -C rpi-rgb-led-matrix/lib && node-gyp rebuild"
+  },
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
