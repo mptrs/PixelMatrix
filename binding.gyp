@@ -3,7 +3,7 @@
 
     "targets": [
         {
-            "target_name": "hzeller-matrix",
+            "target_name": "pixel-matrix",
 			
             "sources": [ 
             	"src/addon.cpp", 
@@ -16,7 +16,7 @@
 
             "include_dirs": [
 	            "<!(GraphicsMagick++-config --cppflags | grep -o -e '/.*')",
-	            "./hzeller/include",
+	            "./rpi-rgb-led-matrix/include",
                 "<!(node -e \"require('nan')\")"
             ],
             
